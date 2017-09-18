@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">lashou</string>
+    <string name="play">立即体验</string>
+    <string name="shopgroup">团购</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="nearby">附近</string>
+    <string name="account">我的</string>
+    <string name="more">更多</string>
+    <string name="share">分享</string>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tv_typeName"
+    android:layout_width="100dp"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:drawableTop="@drawable/food"
+    android:gravity="center"
+    android:text="美食"
+    android:textSize="18sp"
+    android:drawablePadding="10dp"
+    android:padding="10dp"
+    android:background="@drawable/shap_stroke_corner_black"
+    />

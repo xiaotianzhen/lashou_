@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.yicooll.dong.lashou.activity.MainActivity">
+
+    <RadioGroup
+        android:layout_alignParentBottom="true"
+        android:id="@+id/rg_tab"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:padding="5dp"
+            android:id="@+id/radio1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:checked="true"
+            android:drawableTop="@drawable/radio1_selector"
+            android:gravity="center"
+            android:text="@string/shopgroup"/>
+
+        <RadioButton
+            android:padding="5dp"
+            android:id="@+id/radio2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/radio2_selector"
+            android:gravity="center"
+            android:text="@string/nearby"/>
+
+        <RadioButton
+            android:padding="5dp"
+            android:id="@+id/radio3"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/radio3_selector"
+            android:gravity="center"
+            android:text="@string/account"/>
+
+        <RadioButton
+            android:padding="5dp"
+            android:id="@+id/radio4"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/radio4_selector"
+            android:gravity="center"
+            android:text="@string/more"/>
+
+    </RadioGroup>
+
+    <FrameLayout
+        android:layout_above="@id/rg_tab"
+        android:id="@+id/fl_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+    </FrameLayout>
+
+    <android.support.v4.app.FragmentTabHost
+        android:visibility="gone"
+        android:id="@+id/tabhost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </android.support.v4.app.FragmentTabHost>
+
+</RelativeLayout>

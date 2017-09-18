@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/goods_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="商品详情"
+        android:textColor="@color/black"
+        android:textSize="22dp"/>
+
+    <WebView
+        android:id="@+id/wv_goods_detial"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </WebView>
+
+    <TextView
+        android:id="@+id/tv_content_detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="查看图文详情"
+        android:textColor="@color/appcolor"
+        android:textSize="22dp"/>
+
+</LinearLayout>
